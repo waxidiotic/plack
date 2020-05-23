@@ -139,3 +139,5 @@ cython_debug/
 
 # Exclude .vscode from global gitignore
 !/.vscode
+
+99-secrets.yaml
