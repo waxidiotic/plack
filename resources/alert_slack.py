@@ -10,4 +10,4 @@ client = slack.WebClient(token=slack_token)
 
 class SlackResource:
     def send_alert(self):
-        client.chat_postMessage(channel="plex", text="this is only a test")
+        client.chat_postMessage(channel="plex", text="New item added to Plex library.")
