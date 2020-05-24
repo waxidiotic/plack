@@ -1,12 +1,6 @@
-import os
-
 import falcon
-import slack
 
 from resources.listener import ListenerResource
-
-slack_token = os.environ.get('SLACK_TOKEN')
-client = slack.WebClient(token=slack_token)
 
 app = falcon.API()
 lister_resource = ListenerResource()
